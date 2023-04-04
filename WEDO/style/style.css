@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#AAABBC;
+}
+#header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color:#373F47;
+    background-color: #6C91C2;
+    font-size: 2vh;
+}
+#header .list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+}
