@@ -1,0 +1,76 @@
+#pricing{
+    height: 75vh;
+    background-color: $bg-color2 ;
+    display: flex;
+    flex-direction: column;
+    
+
+    .title-section{
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        // text-transform: uppercase;
+        padding: 2.8rem 1rem 1rem 1rem;
+    }
+
+    .cards-container{
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 2rem;
+
+        
+        
+
+        .card {
+            width: 190px;
+            height: 254px;
+            background: $bg-color;
+            padding: 1rem;
+            border-radius: 1rem;
+            border: .5vmin solid $txt-color;
+            box-shadow: .4rem .4rem $txt-color;
+            overflow: hidden;
+    
+            .pricing-block-content {
+                display: flex;
+                height: 100%;
+                flex-direction: column;
+                gap: .5rem;
+    
+                .pricing-plan {
+                    color: $txt-color;
+                    font-size: 1.3rem;
+                    line-height: 1.25;
+                    font-weight: 700;
+                }
+                .price-value {
+                    display: flex;
+                    color: $txt-color;
+                    font-size: 1.8rem;
+                    line-height: 1.25;
+                    font-weight: 700;
+                }
+                .pricing-note {
+                    opacity: .8;
+                }
+                
+                .check-list {
+                    display: flex;
+                    flex-direction: column;
+                    gap: .5rem;
+                    margin-top: .5rem;
+    
+                    .check-list-item {
+                        display: flex;
+                        align-items: center;
+                        gap: 4px;
+                    }
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,38 @@
+#home{
+    font-family: 'Manrope', cursive;
+    font-weight: 700;
+    color: $txt-color;
+    height: 92vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    .main-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        max-width: 55vw;
+
+        margin: 2rem 2rem 2rem 2.5rem;
+        padding: 1.5rem;
+        gap: 1rem;
+        
+        h1{
+            font-family: 'Arvo', serif;
+            font-size: 45px;
+            
+            font-weight: 700;
+
+            .makers-home{
+                font-size: 30px;
+                font-weight: 400;
+            }
+        }
+        h2{
+            font-size: 16px;
+            max-width: 29vw;
+        }
+    }
+    
+}
