@@ -20,7 +20,7 @@
         
         h1{
             font-family: 'Arvo', serif;
-            font-size: 45px;
+            font-size: 75px;
             
             font-weight: 700;
 
@@ -33,6 +33,13 @@
             font-size: 16px;
             max-width: 29vw;
         }
+    }
+
+    lottie-player{
+        position: absolute;
+        top: 10%;
+        left: 75%;
+        transform: translate(-50%);
     }
     
 }
